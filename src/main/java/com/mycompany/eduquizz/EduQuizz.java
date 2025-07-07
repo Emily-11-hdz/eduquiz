@@ -11,6 +11,6 @@ package com.mycompany.eduquizz;
 public class EduQuizz {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("hola pedazos de buenas gentes");
     }
 }
