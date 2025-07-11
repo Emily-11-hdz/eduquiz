@@ -11,6 +11,9 @@ package com.mycompany.eduquizz;
 public class EduQuizz {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        java.awt.EventQueue.invokeLater(() -> {
+                new login().setVisible(true);
+            
+        });
     }
 }
