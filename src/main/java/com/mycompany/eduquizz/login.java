@@ -47,14 +47,12 @@ public class login extends javax.swing.JFrame {
         contrasena_input = new javax.swing.JTextField();
         login_button = new javax.swing.JButton();
         create_button = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         jPanel5.setBackground(new java.awt.Color(187, 133, 81));
 
@@ -104,6 +102,7 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(contrasena_input, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 180, 87, -1));
 
         login_button.setBackground(new java.awt.Color(0, 166, 81));
+        login_button.setText("Sing in");
         login_button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 login_buttonMouseClicked(evt);
@@ -112,6 +111,7 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(login_button, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 270, 80, 27));
 
         create_button.setBackground(new java.awt.Color(0, 166, 81));
+        create_button.setText("Create");
         create_button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 create_buttonMouseClicked(evt);
@@ -124,50 +124,37 @@ public class login extends javax.swing.JFrame {
         });
         jPanel1.add(create_button, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 270, 80, 27));
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Sing in");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 250, 37, -1));
-
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Create");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 250, 50, -1));
-
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("\"Your intelligent assessment tool\"");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 370, 210, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 340, 210, -1));
 
-        jPanel2.setBackground(new java.awt.Color(0, 166, 81));
+        jPanel2.setBackground(new java.awt.Color(204, 197, 132));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\guefr\\Downloads\\24-removebg-preview (1).png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/eduquizz/images/logo.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel7)
-                .addContainerGap())
+            .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 6, Short.MAX_VALUE))
+            .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, 70, Short.MAX_VALUE)
         );
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, -1, 70));
-
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\guefr\\Downloads\\1-removebg-preview (1) (3).png")); // NOI18N
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, -1, 61));
-
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\guefr\\Downloads\\Presentación_Proyecto_Web_Elegante_Minimalista_Beige-removebg-preview.png")); // NOI18N
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 202, -1));
 
         jLabel9.setFont(new java.awt.Font("Showcard Gothic", 0, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Welcome");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, 100, -1));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/eduquizz/images/logo_letras.png"))); // NOI18N
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, 100, 340, 100));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/eduquizz/images/michi_rafaelo.png"))); // NOI18N
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 180, 210));
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -297,13 +284,11 @@ public class login extends javax.swing.JFrame {
     private javax.swing.JButton create_button;
     private javax.swing.JEditorPane jEditorPane1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
