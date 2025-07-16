@@ -15,6 +15,7 @@ public class Continue_as extends javax.swing.JFrame {
      */
     public Continue_as() {
         initComponents();
+        
     }
 
     /**

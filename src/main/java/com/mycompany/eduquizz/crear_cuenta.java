@@ -163,6 +163,7 @@ public class crear_cuenta extends javax.swing.JFrame {
         login inicio = new login();
         inicio.setVisible(true);
         dispose();
+        
     }//GEN-LAST:event_jLabel3MouseClicked
 
     /**

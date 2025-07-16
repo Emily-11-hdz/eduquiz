@@ -242,6 +242,7 @@ public class login extends javax.swing.JFrame {
         crear_cuenta crearCuentaVentana = new crear_cuenta();
         crearCuentaVentana.setVisible(true);
         dispose();
+        
     }//GEN-LAST:event_create_buttonMouseClicked
 
     /**
