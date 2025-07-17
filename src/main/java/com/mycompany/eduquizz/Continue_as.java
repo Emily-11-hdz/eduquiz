@@ -26,6 +26,7 @@ public class Continue_as extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel4 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
@@ -33,6 +34,8 @@ public class Continue_as extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+
+        jLabel4.setText("jLabel4");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(800, 500));
@@ -57,7 +60,7 @@ public class Continue_as extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 100, 230, 60));
+        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 120, 230, 60));
 
         jButton2.setBackground(new java.awt.Color(0, 166, 81));
         jButton2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
@@ -172,6 +175,7 @@ public class Continue_as extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel7;
     // End of variables declaration//GEN-END:variables
